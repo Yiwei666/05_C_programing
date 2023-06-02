@@ -7,7 +7,8 @@
 #define MAX_COMMAND_LENGTH 256
 
 int main(int argc, char *argv[]) {
-    char *filename = "v2ray_commands.txt";
+    // char *filename = "v2ray_commands.txt";
+    char *filename = "D:\\software\\09_v2ray\\v2ray-windows-64-v5.4\\v2ray_commands.txt";
     char commands[MAX_COMMANDS][MAX_COMMAND_LENGTH];
     int line_numbers[MAX_COMMANDS];
     int num_commands = 0;
