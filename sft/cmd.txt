@@ -5,6 +5,7 @@ gnuplot
 packmol
 D:\software\09_v2ray\v2ray-windows-64-v5.4\run_random_v2ray.exe
 D:\software\10_sft\01_time-CountDown\update.exe
+java -cp D:\software\10_sft\01_time-CountDown TimeDifference
 python D:\software\10_sft\execute_commands.py
 "C:\Program Files\Isaacs\isaacs.exe"
 start "" "C:\Users\sun78\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Anaconda3 (64-bit)\Spyder (anaconda3)"
@@ -15,4 +16,3 @@ start "" "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\EndNote\EndNote"
 // cd D:\software\10_sft || dir || type file.txt || cd /d C: ||
 //To compile C source code using gcc: gcc source_file.c -o output_file
 To quit using q
-
