@@ -24,3 +24,10 @@ java -cp D:\software\10_sft\01_time-CountDown TimeDifference
 在上述命令中，-cp 参数用于指定类路径（class path），后面紧跟着 D:\software\10_sft\01_time-CountDown，这是包含 TimeDifference.class 文件的路径。然后，在类名后面添加了 TimeDifference，指定要运行的类名。  
 
 这样，Java虚拟机将在指定的类路径下查找并加载 TimeDifference.class 文件，并运行其 main 方法。  
+
+### future_time_counter.js
+上述倒计时代码的nodejs语言实现。
+在Node.js中，需要使用npm来安装第三方模块，而moment是一个常用的日期和时间处理库，需要先安装才能在代码中使用。你可以在命令行中进入代码所在的目录，然后运行以下命令来安装moment：  
+```
+npm install moment
+```
