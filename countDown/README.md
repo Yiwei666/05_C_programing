@@ -31,5 +31,7 @@ java -cp D:\software\10_sft\01_time-CountDown TimeDifference
 ```
 npm install moment
 ```
-在命令行中使用以下命令运行程序： 
+在命令行中使用以下命令运行程序：  
+```
 node D:\software\10_sft\01_time-CountDown\future_time_counter.js
+```
