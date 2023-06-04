@@ -13,3 +13,14 @@
 javac TimeDifference.java
 java TimeDifference
 ```
+
+若想要在其他文件夹下运行D:\software\10_sft\01_time-CountDown\路径下的TimeDifference.class，可以按照以下步骤进行：  
+
+打开命令行终端，进入你希望运行程序的目标文件夹。  
+在命令行中使用以下命令运行程序：  
+```
+java -cp D:\software\10_sft\01_time-CountDown TimeDifference
+```
+在上述命令中，-cp 参数用于指定类路径（class path），后面紧跟着 D:\software\10_sft\01_time-CountDown，这是包含 TimeDifference.class 文件的路径。然后，在类名后面添加了 TimeDifference，指定要运行的类名。  
+
+这样，Java虚拟机将在指定的类路径下查找并加载 TimeDifference.class 文件，并运行其 main 方法。  
