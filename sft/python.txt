@@ -1,4 +1,4 @@
 start "" "C:\Users\sun78\Desktop\LCSC应用小论文\01_LCSC小论文数据.pptx" & start "" "C:\Users\sun78\Desktop\LCSC应用小论文\LCSC应用小论文_v1.docx" & start "" "C:\Users\sun78\Desktop\LCSC应用小论文" & start "" "C:\Users\sun78\Desktop\cp2k_model" & start "" "C:\Users\sun78\Desktop\LCSC应用小论文\作图参考.pptx" 
-
+start "" "C:\Users\sun78\Desktop\2023-2-20组会\71_interface_B" & start "" "C:\Users\sun78\Desktop\2023-2-20组会\cp2k元动力学测试.pptx" & start "" "C:\Users\sun78\Desktop\2023-5-9组会\2023-5-9组会 孙义伟.pptx"
 
 
