@@ -13,6 +13,7 @@ socket.socket = socks.socksocket
 text = input("Enter some text: ")
 # tts = gTTS(text="每天的时间都是有限的，珍惜时间。", lang="zh-cn")
 tts = gTTS(text, lang="zh-cn")
+# tts = gTTS(text, lang="en")    # 输入英文文本
 tts.save("audio.mp3")
 
 # 初始化pygame
