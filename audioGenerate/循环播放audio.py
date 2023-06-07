@@ -13,8 +13,8 @@ import pygame
 import time
 
 # 设置SOCKS5代理
-socks.set_default_proxy(socks.SOCKS5, "127.0.0.1", 1080)
-socket.socket = socks.socksocket
+# socks.set_default_proxy(socks.SOCKS5, "127.0.0.1", 1080)
+# socket.socket = socks.socksocket
 
 # 创建gtts对象，将文本转换为音频
 # text = input("Enter some text: ")
