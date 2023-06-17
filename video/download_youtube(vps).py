@@ -29,7 +29,7 @@ def download_video(url):
 # 提供要下载的YouTube视频的URL
 
 # video_url = "https://www.youtube.com/watch?v=bu7nU9Mhpyo"
-video_url = input("please input youtube video url")
+video_url = input("please input youtube video url: ")
 
 # 调用下载函数
 download_video(video_url)
