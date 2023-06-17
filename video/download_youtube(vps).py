@@ -1,13 +1,13 @@
-
 # import socks
 # import socket
 from pytube import YouTube
+import os
 
 # 设置SOCKS5代理
 # socks.set_default_proxy(socks.SOCKS5, "127.0.0.1", 1080)
 # socket.socket = socks.socksocket
 
-def download_video(url):
+def download_video(url, save_path):
     try:
         # 创建YouTube对象
         yt = YouTube(url)
@@ -18,8 +18,8 @@ def download_video(url):
         # 选择最高质量的视频格式
         video = available_streams[-1]
         
-        # 下载视频
-        video.download()
+        # 下载视频到指定路径
+        video.download(output_path=save_path)
         
         print("视频下载完成！")
         
@@ -31,5 +31,8 @@ def download_video(url):
 # video_url = "https://www.youtube.com/watch?v=bu7nU9Mhpyo"
 video_url = input("please input youtube video url: ")
 
-# 调用下载函数
-download_video(video_url)
+# 提供保存视频的路径
+save_path = '/home/01_html/01_yiGongZi'
+
+# 调用下载函数并传递URL和保存路径
+download_video(video_url, save_path)
