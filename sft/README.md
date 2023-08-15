@@ -1,9 +1,18 @@
+### 项目功能
+---
 
-### sft.c
+
+
+### 项目结构
+---
+
+- sft.c
+
 这段代码主要功能是从一个名为cmd.txt的文件中读取命令列表，显示给用户，并根据用户输入的命令编号执行相应的命令 
 添加环境变量时只需要将‪D:\software\10_sft\sft.exe路径中 ‪D:\software\10_sft\ 这一部分写入到系统变量即可
 
-### cmd.txt
+- cmd.txt
+
 存储命令列表的文件，命令中不可包含中文路径
 ```
 python D:\software\10_sft\command_list.py
@@ -25,9 +34,11 @@ start "" "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\EndNote\EndNote"
 To quit using q
 ```
 
-### command_list.py
+- command_list.py
+
 这段代码的功能是从一个名为python.txt的文件中读取命令，然后显示这些命令的列表。接着，程序会循环读取用户输入的命令编号，并执行对应的命令。如果用户输入的编号无效，程序会提示错误信息。当用户输入0时，程序结束。
 
-### python.txt
+- python.txt
+
 存储命令列表的文件，命令中可包含中文路径
 
