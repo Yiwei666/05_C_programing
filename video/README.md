@@ -1,6 +1,7 @@
 # 项目功能
 
-
+- 使用本地socks5代理下载指定python模块
+- 使用pytube模块下载youtube视频
 
 
 # 环境配置
