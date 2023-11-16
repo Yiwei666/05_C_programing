@@ -1,10 +1,22 @@
-### 项目功能
----
+# 项目功能
+
+windows配置脚本和程序的cmd快捷命令
 
 
+# 项目结构
 
-### 项目结构
----
+```
+│  sft.c
+│  sft.exe
+│  cmd.txt
+
+
+│  command_list.py
+│  python.txt
+
+
+│  execute_commands.py       # 
+```
 
 - sft.c
 
