@@ -6,16 +6,16 @@ windows配置脚本和程序的cmd快捷命令
 # 项目结构
 
 ```
-│  sft.c
-│  sft.exe
-│  cmd.txt
+sft.c
+sft.exe
+cmd.txt
 
 
-│  command_list.py
-│  python.txt
+command_list.py
+python.txt
 
-
-│  execute_commands.py       # 
+# 这段Python代码打开一个名为"python.txt"的文件，该文件位于"D:/software/10_sft/"目录下。假设文件中的每一行都包含一个Shell命令。代码然后使用subprocess.call()函数执行每个命令。
+execute_commands.py       
 ```
 
 - sft.c
