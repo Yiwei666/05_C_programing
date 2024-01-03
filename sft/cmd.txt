@@ -14,6 +14,8 @@ start "" "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\WinSCP"
 start "" "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\EndNote\EndNote"
 start "" "D:\software\18_phpStorm\installfile\PhpStorm 2023.1.3\bin\phpstorm64.exe"
 start "" "C:\Users\sun78\AppData\Local\Programs\Microsoft VS Code\Code.exe"
+start "" "D:\software\03_Dev-C++\installfile\Dev-Cpp\devcpp.exe"
+
 
 // load "data.txt" || packmol < inputfile.inp || To quit using q
 // cd D:\software\10_sft || dir || type file.txt || cd /d C: ||
