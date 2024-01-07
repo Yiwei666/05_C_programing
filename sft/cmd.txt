@@ -8,13 +8,14 @@ D:\software\10_sft\01_time-CountDown\update.exe
 java -cp D:\software\10_sft\01_time-CountDown TimeDifference
 node D:\software\10_sft\01_time-CountDown\future_time_counter.js
 python D:\software\10_sft\execute_commands.py
-"C:\Program Files\Isaacs\isaacs.exe"
+start "" "C:\Program Files\Isaacs\isaacs.exe"
 start "" "C:\Users\sun78\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Anaconda3 (64-bit)\Spyder (anaconda3)"
 start "" "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\WinSCP"
 start "" "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\EndNote\EndNote"
 start "" "D:\software\18_phpStorm\installfile\PhpStorm 2023.1.3\bin\phpstorm64.exe"
 start "" "C:\Users\sun78\AppData\Local\Programs\Microsoft VS Code\Code.exe"
 start "" "D:\software\03_Dev-C++\installfile\Dev-Cpp\devcpp.exe"
+start "" "D:\software\04_RStudio\installfile\RStudio\rstudio.exe"
 
 
 // load "data.txt" || packmol < inputfile.inp || To quit using q
