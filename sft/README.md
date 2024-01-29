@@ -1,9 +1,9 @@
-# 项目功能
+# 1. 项目功能
 
 windows配置脚本和程序的cmd快捷命令
 
 
-# 项目结构
+# 2. 项目结构
 
 ```
 sft.c
@@ -16,6 +16,7 @@ python.txt
 execute_commands.py
 ```
 
+# 3. 环境配置
 
 - sft.c
 
@@ -26,7 +27,8 @@ execute_commands.py
 - cmd.txt
 
 存储命令列表的文件，命令中不可包含中文路径
-```
+
+```cmd
 python D:\software\10_sft\command_list.py
 multiwfn
 python
@@ -34,11 +36,18 @@ gnuplot
 packmol
 D:\software\09_v2ray\v2ray-windows-64-v5.4\run_random_v2ray.exe
 D:\software\10_sft\01_time-CountDown\update.exe
+java -cp D:\software\10_sft\01_time-CountDown TimeDifference
+node D:\software\10_sft\01_time-CountDown\future_time_counter.js
 python D:\software\10_sft\execute_commands.py
-"C:\Program Files\Isaacs\isaacs.exe"
+start "" "C:\Program Files\Isaacs\isaacs.exe"
 start "" "C:\Users\sun78\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Anaconda3 (64-bit)\Spyder (anaconda3)"
 start "" "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\WinSCP"
 start "" "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\EndNote\EndNote"
+start "" "D:\software\18_phpStorm\installfile\PhpStorm 2023.1.3\bin\phpstorm64.exe"
+start "" "C:\Users\sun78\AppData\Local\Programs\Microsoft VS Code\Code.exe"
+start "" "D:\software\03_Dev-C++\installfile\Dev-Cpp\devcpp.exe"
+start "" "D:\software\04_RStudio\installfile\RStudio\rstudio.exe"
+
 
 // load "data.txt" || packmol < inputfile.inp || To quit using q
 // cd D:\software\10_sft || dir || type file.txt || cd /d C: ||
