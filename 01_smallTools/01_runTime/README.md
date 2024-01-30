@@ -1,5 +1,10 @@
+# 1. 项目功能
 
+对比不同编程语言计算0到1亿累加和的时间
 
+# 2. 文件结构
+
+# 3. 环境配置
 
 ### 1. c
 
@@ -90,6 +95,35 @@ func main() {
 
 Sum: 499999999500000000   
 Time taken: 0.475343 seconds
+
+
+
+### 4. python
+
+```py
+import time
+
+start_time = time.time()
+
+# 执行一些计算任务，例如循环计算
+sum_val = 0
+for i in range(1000000000):
+    sum_val += i
+
+end_time = time.time()
+time_taken = end_time - start_time
+
+print("Sum:", sum_val)
+print("Time taken:", time_taken, "seconds")
+```
+
+Sum: 499999999500000000          
+Time taken: 83.71781826019287 seconds
+
+
+
+
+
 
 
 
