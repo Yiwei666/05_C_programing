@@ -145,6 +145,27 @@ Sum: 499999999500000000
 Time taken: 13.030443906784 seconds
 
 
+### 6. javascript
+
+```js
+let startTime = new Date().getTime();
+
+// 执行一些计算任务，例如循环计算
+let sum = BigInt(0);
+for (let i = 0; i < 1000000000; ++i) {
+    sum += BigInt(i);
+}
+
+let endTime = new Date().getTime();
+let cpuTimeUsed = (endTime - startTime) / 1000; // 将毫秒转换为秒
+
+console.log(`Sum: ${sum}`);
+console.log(`Time taken: ${cpuTimeUsed} seconds`);
+```
+
+Sum: 499999999500000000   
+Time taken: 53.768 seconds
+
 
 
 
