@@ -1,6 +1,38 @@
 
 
 
+### c
+
+```c
+#include <stdio.h>
+#include <time.h>
+
+int main() {
+    clock_t start_time, end_time;
+    double cpu_time_used;
+
+    start_time = clock();
+
+    // Calculate the sum of the first billion integers
+    long long sum = 0;
+    for (int i = 0; i < 1000000000; ++i) {
+        sum += i;
+    }
+
+    end_time = clock();
+    cpu_time_used = ((double)(end_time - start_time)) / CLOCKS_PER_SEC;
+
+    printf("Sum: %lld\n", sum);
+    printf("Time taken: %f seconds\n", cpu_time_used);
+
+    return 0;
+}
+```
+
+Sum: 499999999500000000
+Time taken: 1.890000 seconds
+
+
 
 ### java
 
