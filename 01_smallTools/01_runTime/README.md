@@ -121,9 +121,28 @@ Sum: 499999999500000000
 Time taken: 83.71781826019287 seconds
 
 
+### 5. php
 
+```php
+<?php
+$start_time = microtime(true);
 
+// 执行一些计算任务，例如循环计算
+$sum = 0;
+for ($i = 0; $i < 1000000000; ++$i) {
+    $sum += $i;
+}
 
+$end_time = microtime(true);
+$cpu_time_used = $end_time - $start_time;
+
+echo "Sum: $sum\n";
+echo "Time taken: $cpu_time_used seconds\n";
+?>
+```
+
+Sum: 499999999500000000            
+Time taken: 13.030443906784 seconds
 
 
 
