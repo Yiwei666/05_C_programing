@@ -1,7 +1,7 @@
 
 
 
-### c
+### 1. c
 
 ```c
 #include <stdio.h>
@@ -34,7 +34,7 @@ Time taken: 1.890000 seconds
 
 
 
-### java
+### 2. java
 
 ```java
 public class DisplayStringsExample {
@@ -58,6 +58,53 @@ public class DisplayStringsExample {
 
 Sum: 499999999500000000     
 Time taken: 0.250375 seconds
+
+
+
+### 3. go
+
+```go
+package main
+
+import (
+	"fmt"
+	"time"
+)
+
+func main() {
+	startTime := time.Now()
+
+	// 执行一些计算任务，例如循环计算
+	sum := 0
+	for i := 0; i < 1000000000; i++ {
+		sum += i
+	}
+
+	endTime := time.Now()
+	cpuTimeUsed := endTime.Sub(startTime).Seconds()
+
+	fmt.Printf("Sum: %d\n", sum)
+	fmt.Printf("Time taken: %f seconds\n", cpuTimeUsed)
+}
+```
+
+Sum: 499999999500000000   
+Time taken: 0.475343 seconds
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
