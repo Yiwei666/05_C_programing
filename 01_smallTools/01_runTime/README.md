@@ -167,6 +167,34 @@ Sum: 499999999500000000
 Time taken: 53.768 seconds
 
 
+### 7. C++
+
+```c++
+#include <iostream>
+#include <chrono>
+
+int main() {
+    auto start_time = std::chrono::high_resolution_clock::now();
+
+    // 执行一些计算任务，例如循环计算
+    unsigned long long sum = 0;
+    for (int i = 0; i < 1000000000; ++i) {
+        sum += i;
+    }
+
+    auto end_time = std::chrono::high_resolution_clock::now();
+    std::chrono::duration<double> elapsed_time = end_time - start_time;
+
+    std::cout << "Sum: " << sum << std::endl;
+    std::cout << "Time taken: " << elapsed_time.count() << " seconds" << std::endl;
+
+    return 0;
+}
+```
+
+Sum: 499999999500000000         
+Time taken: 1.96354 seconds
+
 
 
 
