@@ -6,5 +6,6 @@ python D:\onedrive\3图书\01_编程书\booklist.py
 python D:\onedrive\3图书\01_编程书\booklist_static.py
 cd C:\Users\sun78\下载_chrome\Jmol-14.31.36-binary\jmol-14.31.36 && jmol.bat
 python D:\onedrive\3图书\07_美国中学教材\booklist.py
-
+scp -r "D:\onedrive\图片\01_家乡风景\海外风景" root@75.46.108.63:/home/01_html/08_x/image/03_picTemp
+cd /d D:\software\27_nodejs\my-image-uploader && node server.js
 
