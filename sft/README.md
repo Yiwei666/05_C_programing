@@ -18,6 +18,24 @@ execute_commands.py
 
 # 3. 环境配置
 
+### 1. `gcc/g++` 安装
+
+1. 命令提示符判断是否安装了 gcc 或 g++ 编译器
+
+```cmd
+gcc --version
+g++ --version
+```
+
+2. 编译
+
+```cmd
+gcc sft.c -o sft
+```
+
+
+### 2. 文件说明
+
 - sft.c
 
 这段代码主要功能是从一个名为 `cmd.txt` 的文件中读取命令列表，显示给用户，并根据用户输入的命令编号执行相应的命令 
