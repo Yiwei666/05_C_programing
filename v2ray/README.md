@@ -29,7 +29,7 @@ start cmd /k "D:\software\09_v2ray\v2ray-windows-64-v5.4\v2ray.exe run -c D:\sof
 ```
 
 
-### 4. 添加ico图标到exe文件
+### 4. 添加`ico`图标到`exe`文件
 
 在MinGW-W64编译器中，可以使用windres命令将ICO文件嵌入到可执行文件中（基于c++代码实现的可执行文件）。下面是使用windres的具体步骤：
 
