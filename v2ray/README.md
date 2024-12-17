@@ -2,7 +2,7 @@
 
 切换v2ray代理路线
 
-# 2. 文件结构
+# 2. 切换v2ray代理路线命令行程序
 
 ### 1. `run_random_v2ray.c`
  
@@ -29,13 +29,9 @@ start cmd /k "D:\software\09_v2ray\v2ray-windows-64-v5.4\v2ray.exe run -c D:\sof
 ```
 
 
-# 3. 添加ico图标到exe文件
+### 4. 添加ico图标到exe文件
 
-
-### 1. 使用windres命令将ICO文件嵌入到可执行文件中
-
-
-在MinGW-W64编译器中，可以使用windres命令将ICO文件嵌入到可执行文件中（基于c++实现的程序）。下面是使用windres的具体步骤：
+在MinGW-W64编译器中，可以使用windres命令将ICO文件嵌入到可执行文件中（基于c++代码实现的可执行文件）。下面是使用windres的具体步骤：
 
 
 **1. 准备ICO文件**
@@ -95,6 +91,11 @@ g++ -o your_executable.exe your_code.cpp resources.o
 
 - ico在线下载网址：[https://www.iconfinder.com/](https://www.iconfinder.com/)
 
+
+
+# 3. v2ray路线切换GUI界面
+
+参考项目：https://github.com/Yiwei666/06_java/blob/main/01_smallTools/README.md
 
 
 
