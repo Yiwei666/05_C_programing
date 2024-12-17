@@ -103,6 +103,7 @@ To quit using q
 
 ### 3. 命令行启动Python脚本实现
 
+使用python脚本启动可以解决路径中有中文字符的问题，以及中文字符正确显示的问题
 
 - `command_list.py`
 
