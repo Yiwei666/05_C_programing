@@ -12,7 +12,7 @@
 
 ### 2. `run_random_v2ray.cpp`
 
-上述代码的c++实现
+上述代码的`c++`实现，后续用于嵌入`ico`图标
 
 
 ### 3. `v2ray_commands.txt`
@@ -31,7 +31,7 @@ start cmd /k "D:\software\09_v2ray\v2ray-windows-64-v5.4\v2ray.exe run -c D:\sof
 
 ### 4. 添加`ico`图标到`exe`文件
 
-在MinGW-W64编译器中，可以使用windres命令将ICO文件嵌入到可执行文件中（基于c++代码实现的可执行文件）。下面是使用windres的具体步骤：
+在MinGW-W64编译器中，可以使用`windres`命令将ICO文件嵌入到可执行文件中（基于c++代码实现的可执行文件）。下面是使用windres的具体步骤：
 
 
 **1. 准备ICO文件**
