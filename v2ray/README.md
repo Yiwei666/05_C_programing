@@ -34,7 +34,8 @@ start cmd /k "D:\software\09_v2ray\v2ray-windows-64-v5.4\v2ray.exe run -c D:\sof
 
 ### 1. 使用windres命令将ICO文件嵌入到可执行文件中
 
-在MinGW-W64编译器中，可以使用windres命令将ICO文件嵌入到可执行文件中。下面是使用windres的具体步骤：
+
+在MinGW-W64编译器中，可以使用windres命令将ICO文件嵌入到可执行文件中（基于c++实现的程序）。下面是使用windres的具体步骤：
 
 
 **1. 准备ICO文件**
@@ -72,7 +73,7 @@ windres resources.rc -o resources.o
 
 **4. 编译代码**
 
-使用g++编译你的C++代码，并将之前生成的对象文件链接到可执行文件中。运行以下命令：
+使用 `g++` 编译你的 `C++` 代码，并将之前生成的对象文件链接到可执行文件中。运行以下命令：
 
 ```
 g++ -o your_executable.exe your_code.cpp resources.o
