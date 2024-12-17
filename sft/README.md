@@ -181,7 +181,7 @@ To quit using q
 1. 浏览器中保存图片到指定文件夹（Node.js本地应用）：https://github.com/Yiwei666/03_Python-PHP/blob/main/08_pictureEdit/06_imageHost/03_picLocalUpload/README.md
 2. 计算不同版本代码差异并显示（Node.js本地应用）：https://github.com/Yiwei666/03_Python-PHP/blob/main/03_smallTools/16_codeDiff/README.md
 3. 将windows指定目录下的所有文件生成目录，然后在浏览器 127.0.0.1:2000 端口查看（Python本地应用）：https://github.com/Yiwei666/03_Python-PHP/blob/main/03_smallTools/07_%E6%9C%AC%E5%9C%B0%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84web%E6%98%BE%E7%A4%BA/README.md
-
+4. IOPaint图片去水印模型本地运行：https://github.com/Yiwei666/12_blog/blob/main/888/8-008.md
 
 
 
