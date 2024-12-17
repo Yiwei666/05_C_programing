@@ -1,11 +1,12 @@
 start "" "C:\Users\sun78\Desktop\LCSC应用小论文\01_LCSC小论文数据.pptx" & start "" "C:\Users\sun78\Desktop\LCSC应用小论文\LCSC应用小论文_v1.docx" & start "" "C:\Users\sun78\Desktop\LCSC应用小论文" & start "" "C:\Users\sun78\Desktop\cp2k_model" & start "" "C:\Users\sun78\Desktop\LCSC应用小论文\作图参考.pptx" 
-start "" "C:\Users\sun78\Desktop\2023-2-20组会\71_interface_B" & start "" "C:\Users\sun78\Desktop\2023-2-20组会\cp2k元动力学测试.pptx" & start "" "C:\Users\sun78\Desktop\2023-5-9组会\2023-5-9组会 孙义伟.pptx"
+start "" "C:\Users\sun78\Desktop\2023-2-20组会\71_interface_B" & start "" "C:\Users\sun78\Desktop\2023-2-20组会\cp2k元动力学测试.pptx" & start "" "C:\Users\sun78\Desktop\2023-5-9组会\2023-5-9组会.pptx"
 python D:\software\10_sft\03_audio_generate\characterToAudio.py
 python D:\software\10_sft\03_audio_generate\循环播放audio.py
 python D:\onedrive\3图书\01_编程书\booklist.py
 python D:\onedrive\3图书\01_编程书\booklist_static.py
 cd C:\Users\sun78\下载_chrome\Jmol-14.31.36-binary\jmol-14.31.36 && jmol.bat
 python D:\onedrive\3图书\07_美国中学教材\booklist.py
-scp -r "D:\onedrive\图片\01_家乡风景\海外风景" root@75.46.108.63:/home/01_html/08_x/image/03_picTemp
+scp -r "D:\software\27_nodejs\海外风景" root@75.46.108.63:/home/01_html/08_x/image/03_picTemp
 cd /d D:\software\27_nodejs\my-image-uploader && node server.js
-
+conda activate iopaint_env && iopaint start --model=lama --device=cpu --port=8080
+python D:\software\10_sft\01_windows_directory_tree.py
