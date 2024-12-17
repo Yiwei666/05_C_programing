@@ -5,6 +5,8 @@ windows配置脚本和程序的cmd快捷命令
 
 # 2. 项目结构
 
+1. 命令行启动
+
 ```py
 # 读取显示cmd.txt中的命令列表，根据用户输入的命令序号执行相应命令
 sft.c
@@ -18,6 +20,13 @@ python.txt
 # 该脚本已弃用
 execute_commands.py
 ```
+
+2. 命令行启动的常见脚本工具
+
+```
+01_windows_directory_tree.py          # 查看windows系统下指定路径的目录结构
+```
+
 
 
 # 3. 环境配置
@@ -52,7 +61,7 @@ gcc sft.c -o sft
 
 
 
-### 2. 文件说明
+### 2. 命令行启动C语言实现
 
 - `sft.c`
 
@@ -92,6 +101,9 @@ To quit using q
 ```
 
 
+### 3. 命令行启动Python脚本实现
+
+
 - `command_list.py`
 
 这段代码的功能是从一个名为`python.txt`的文件中读取命令，然后显示这些命令的列表。接着，程序会循环读取用户输入的命令编号，并执行对应的命令。如果用户输入的编号无效，程序会提示错误信息。当用户输入0时，程序结束。
@@ -102,9 +114,26 @@ To quit using q
 存储命令列表的文件，命令中可包含中文路径
 
 
-- `execute_commands.py`
+- `execute_commands.py`（已弃用）
 
 这段Python代码打开一个名为`"python.txt"`的文件，该文件位于`"D:/software/10_sft/"`目录下。假设文件中的每一行都包含一个Shell命令。代码然后使用`subprocess.call()`函数执行每个命令。
+
+
+
+# 4. 脚本工具
+
+
+### 1. `01_windows_directory_tree.py`
+
+功能：提示用户分别输入两个参数，第一个参数是window下的目录，第二个参数是该目录下查看的目录深度
+
+
+
+
+
+
+
+
 
 
 
