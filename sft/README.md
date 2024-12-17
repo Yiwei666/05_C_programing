@@ -120,14 +120,55 @@ To quit using q
 
 
 
+
 # 4. 脚本工具
 
 
 ### 1. `01_windows_directory_tree.py`
 
-功能：提示用户分别输入两个参数，第一个参数是window下的目录，第二个参数是该目录下查看的目录深度
+1. 功能：提示用户分别输入两个参数，第一个参数是window下的目录，第二个参数是该目录下查看的目录深度
 
+2. 运行结果示例：
 
+```
+目录树结构 (D:\software\10_sft) 深度 2：
+
+├── 01_time-CountDown
+    ├── 01_time.py
+    ├── TimeDifference.class
+    ├── TimeDifference.java
+    ├── countdown.sh
+    ├── date.c
+    ├── date.go
+    ├── future_time_counter.js
+    ├── node_modules
+    ├── package-lock.json
+    └── update.exe
+├── 01_windows_directory_tree.py
+├── 02_java
+    └── HelloWorld.java
+├── 03_audio_generate
+    ├── 20230606-160719.mp4
+    ├── 20230606-161457.mp4
+    ├── 20230607-104219.mp4
+    ├── 20230607-104314.mp4
+    ├── 20230607-104430.mp4
+    ├── TextToSpeech.java
+    ├── audio.mp3
+    ├── characterToAudio.py
+    ├── moduleTest.js
+    ├── node_modules
+    ├── package-lock.json
+    ├── textToSpeech.js
+    ├── 周杰倫 Jay Chou (特別演出 派偉俊)【告白氣球 Love Confession】Official MV.mp4
+    └── 循环播放audio.py
+├── cmd.txt
+├── command_list.py
+├── execute_commands.py
+├── python.txt
+├── sft.c
+└── sft.exe
+```
 
 
 
