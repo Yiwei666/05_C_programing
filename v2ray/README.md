@@ -52,6 +52,9 @@ start cmd /k "D:\software\09_v2ray\v2ray-windows-64-v5.4\v2ray.exe run -c D:\sof
 1 ICON "path/to/your_icon.ico"
 ```
 
+其中，`1`是资源ID，`ICON`是资源类型。
+
+
 - 同级目录下ico文件的例子
 
 ```
