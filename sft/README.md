@@ -76,6 +76,7 @@ gcc sft.c -o sft
 ```cmd
 python D:\software\10_sft\command_list.py
 multiwfn
+vmd
 python
 gnuplot
 packmol
@@ -92,6 +93,8 @@ start "" "D:\software\18_phpStorm\installfile\PhpStorm 2023.1.3\bin\phpstorm64.e
 start "" "C:\Users\sun78\AppData\Local\Programs\Microsoft VS Code\Code.exe"
 start "" "D:\software\03_Dev-C++\installfile\Dev-Cpp\devcpp.exe"
 start "" "D:\software\04_RStudio\installfile\RStudio\rstudio.exe"
+start "" cmd /k "cd /d D:\software\27_nodejs\my-image-uploader && node server.js"
+start "" cmd /k "cd /d D:\software\27_codeDiff\code-diff-app && node server.js"
 
 
 // load "data.txt" || packmol < inputfile.inp || To quit using q
