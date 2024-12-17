@@ -6,15 +6,16 @@ windows配置脚本和程序的cmd快捷命令
 # 2. 项目结构
 
 ```
-# 1. 读取显示cmd.txt中的命令列表，根据用户输入的命令序号执行相应命令
+# 读取显示cmd.txt中的命令列表，根据用户输入的命令序号执行相应命令
 sft.c
 sft.exe
 cmd.txt
 
-# 2. 
+# 使用python脚本读取 python.txt 中的命令并列表显示，然后根据用户输入的命令序号执行相应命令
 command_list.py
 python.txt
 
+# 该脚本已弃用
 execute_commands.py
 ```
 
